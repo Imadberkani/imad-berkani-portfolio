@@ -1,0 +1,67 @@
+<svg width="100%" viewBox="0 0 680 450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="450" fill="#021727"/>
+
+  <!-- Subtle grid background -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0d2d4a" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+    <linearGradient id="glow1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a4a7a" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0d2d4a" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5c1a2a" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#3a1218" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="glow3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a5c3a" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0d3a22" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="glow4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5c4a1a" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#3a2e0d" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="680" height="450" fill="url(#grid)"/>
+
+  <!-- CLUSTER 1 – Sinistre (top-left) -->
+  <ellipse cx="175" cy="125" rx="150" ry="95" fill="url(#glow1)" stroke="#2a6090" stroke-width="1" opacity="0.8"/>
+  <text x="175" y="85" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#c09c4c" font-weight="700" letter-spacing="3">TOPIC 1</text>
+  <text x="175" y="120" text-anchor="middle" font-family="Georgia,serif" font-size="38" font-weight="700" fill="#ffffff">sinistre</text>
+  <text x="110" y="155" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#7eb8e0">déclaration</text>
+  <text x="245" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#a0c8e8">contrat</text>
+  <text x="145" y="185" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#5a9ccc">garantie</text>
+  <text x="230" y="180" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#4a8aaa">expertise</text>
+
+  <!-- CLUSTER 2 – Résiliation (top-right) -->
+  <ellipse cx="505" cy="125" rx="150" ry="95" fill="url(#glow2)" stroke="#8b3040" stroke-width="1" opacity="0.8"/>
+  <text x="505" y="85" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#c09c4c" font-weight="700" letter-spacing="3">TOPIC 2</text>
+  <text x="505" y="120" text-anchor="middle" font-family="Georgia,serif" font-size="38" font-weight="700" fill="#ffffff">résiliation</text>
+  <text x="440" y="155" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#e08888">cotisation</text>
+  <text x="575" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#f0a0a0">préavis</text>
+  <text x="475" y="185" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#c06060">tarif</text>
+  <text x="555" y="180" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#a04444">délai</text>
+
+  <!-- CLUSTER 3 – Prélèvement (bottom-left) -->
+  <ellipse cx="175" cy="340" rx="150" ry="95" fill="url(#glow3)" stroke="#2a8050" stroke-width="1" opacity="0.8"/>
+  <text x="175" y="300" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#c09c4c" font-weight="700" letter-spacing="3">TOPIC 3</text>
+  <text x="175" y="338" text-anchor="middle" font-family="Georgia,serif" font-size="36" font-weight="700" fill="#ffffff">prélèvement</text>
+  <text x="120" y="372" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#80d0a0">paiement</text>
+  <text x="245" y="368" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#a0e8c0">IBAN</text>
+  <text x="155" y="400" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#60b080">mensualité</text>
+  <text x="245" y="395" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#40a060">compte</text>
+
+  <!-- CLUSTER 4 – Attestation (bottom-right) -->
+  <ellipse cx="505" cy="340" rx="150" ry="95" fill="url(#glow4)" stroke="#8b7030" stroke-width="1" opacity="0.8"/>
+  <text x="505" y="300" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#c09c4c" font-weight="700" letter-spacing="3">TOPIC 4</text>
+  <text x="505" y="338" text-anchor="middle" font-family="Georgia,serif" font-size="36" font-weight="700" fill="#ffffff">attestation</text>
+  <text x="440" y="372" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#e0c870">document</text>
+  <text x="575" y="368" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#f0d880">envoi</text>
+  <text x="470" y="400" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#c0a050">certificat</text>
+  <text x="560" y="395" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#a08030">courrier</text>
+
+  <!-- Center label -->
+  <rect x="280" y="210" width="120" height="32" rx="16" fill="#c09c4c" opacity="0.15"/>
+  <text x="340" y="232" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#c09c4c" font-weight="600" letter-spacing="1">HDBSCAN + BERT</text>
+</svg>
