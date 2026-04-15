@@ -33,8 +33,8 @@ function NavBar() {
 
   const flagBtnStyle = (active) => ({
     padding: "2px 6px",
-    backgroundColor: active ? "#f0f0f0" : "white",
-    border: active ? "2px solid #c09c4c" : "1px solid #ccc",
+    backgroundColor: "transparent",
+    border: "none",
     boxShadow: active ? "0 0 5px rgba(192,156,76,0.8)" : "none",
   });
   const flagImgStyle = (active) => ({
